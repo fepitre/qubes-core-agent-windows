@@ -45,6 +45,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "advertise-tools", "advertis
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "open-url", "qrexec-services\open-url\open-url.vcxproj", "{F8AB274C-BEFA-4FB9-A44B-8F1994A08590}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rpc-files", "qrexec-services\rpc-files\rpc-files.vcxproj", "{BFC87CD4-B2BA-44D4-9CDE-864431278F8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -299,6 +301,18 @@ Global
 		{F8AB274C-BEFA-4FB9-A44B-8F1994A08590}.Release|Win32.Build.0 = Release|Win32
 		{F8AB274C-BEFA-4FB9-A44B-8F1994A08590}.Release|x64.ActiveCfg = Release|x64
 		{F8AB274C-BEFA-4FB9-A44B-8F1994A08590}.Release|x64.Build.0 = Release|x64
+		{BFC87CD4-B2BA-44D4-9CDE-864431278F8F}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{BFC87CD4-B2BA-44D4-9CDE-864431278F8F}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{BFC87CD4-B2BA-44D4-9CDE-864431278F8F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BFC87CD4-B2BA-44D4-9CDE-864431278F8F}.Debug|Win32.Build.0 = Debug|Win32
+		{BFC87CD4-B2BA-44D4-9CDE-864431278F8F}.Debug|x64.ActiveCfg = Debug|x64
+		{BFC87CD4-B2BA-44D4-9CDE-864431278F8F}.Debug|x64.Build.0 = Debug|x64
+		{BFC87CD4-B2BA-44D4-9CDE-864431278F8F}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{BFC87CD4-B2BA-44D4-9CDE-864431278F8F}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{BFC87CD4-B2BA-44D4-9CDE-864431278F8F}.Release|Win32.ActiveCfg = Release|Win32
+		{BFC87CD4-B2BA-44D4-9CDE-864431278F8F}.Release|Win32.Build.0 = Release|Win32
+		{BFC87CD4-B2BA-44D4-9CDE-864431278F8F}.Release|x64.ActiveCfg = Release|x64
+		{BFC87CD4-B2BA-44D4-9CDE-864431278F8F}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -315,5 +329,6 @@ Global
 		{0D3808B3-DD2B-4A89-A30F-02579B946315} = {5B72526F-14EE-4FC5-9311-5C59F5783F9D}
 		{62AB0630-BBA8-4B3C-AFB3-602DAF0B787D} = {5B72526F-14EE-4FC5-9311-5C59F5783F9D}
 		{F8AB274C-BEFA-4FB9-A44B-8F1994A08590} = {5B72526F-14EE-4FC5-9311-5C59F5783F9D}
+		{BFC87CD4-B2BA-44D4-9CDE-864431278F8F} = {5B72526F-14EE-4FC5-9311-5C59F5783F9D}
 	EndGlobalSection
 EndGlobal

@@ -69,7 +69,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\src\service-policy\service-policy.cfg" />
+    <Content Include="..\..\src\service-policy\service-policy.cfg" CopyToOutputDirectory="Always"/>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
